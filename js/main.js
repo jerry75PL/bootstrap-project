@@ -2,9 +2,7 @@ $(function () {
 
 
     $(window).scroll(function () {
-        
-            
-        if ($(window).scrollTop() >= 30) {                  //to jest w praktyce to samo co niżej if ((window.scrollY)
+        if ($(window).scrollTop() >= 30) {                              //to jest w praktyce to samo co niżej if ((window.scrollY)
             $('#main-nav').addClass('nav-scroll')
         } else {
             $('#main-nav').removeClass('nav-scroll')
@@ -12,8 +10,13 @@ $(function () {
     });
 
     if ((window.scrollY) >= 30) {
-        $('#main-nav').addClass('nav-scroll');              //to jest w praktyce to samo co wyżej if ($(window).scrollTop()
+        $('#main-nav').addClass('nav-scroll');                          //to jest w praktyce to samo co wyżej if ($(window).scrollTop()
     }
 
 
+    
+    
+    
+    
+    
 });
