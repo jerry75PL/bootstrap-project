@@ -23,7 +23,7 @@ h1 {
 
 h2 {
     font-size: 3em;
-    color: #000;
+    color: #333;
     text-transform: uppercase;
     padding: 10px;
 }
@@ -38,8 +38,8 @@ section {
 
 a.btn-blue,
 .btn-blue {
-    background-color: aqua;
-    border: 1px solid aqua;
+    background-color: #0ed8d6;
+    border: 1px solid #0ed8d6;
     font-family: 'Montserrat', 'sans-serif';
     text-transform: uppercase;
     padding: 15px 30px;
@@ -49,8 +49,8 @@ a.btn-blue,
 a.btn-blue:hover,
 .btn-blue:hover {
     background-color: #fff;
-    border: 1px solid aqua;
-    color: aqua;
+    border: 1px solid #0ed8d6;
+    color: #0ed8d6;
 }
 
 
@@ -120,19 +120,19 @@ a.btn-blue:hover,
 /*Services Style*/
 
 .services-icons {
-    color: aqua;
+    color: #0ed8d6;
     font-size: 3em;
 }
 
 .services-icon {
-    background: aqua;
+    background: #0ed8d6;
     border-radius: 50%;
 }
 
 .services-icons:hover>.services-icon {
-    color: aqua;
+    color: #0ed8d6;
     transform: rotate(360deg);
-    border: 1px solid aqua;
+    border: 1px solid #0ed8d6;
     border-radius: 50%;
     background: none;
 }
@@ -141,7 +141,7 @@ a.btn-blue:hover,
 /*portfolio */
 
 #portfolio {
-    background: #f6f6f6;
+    background: #f7f7f7;
 }
 
 .portfolio-block {
@@ -218,8 +218,8 @@ a.btn-blue:hover,
 
 .contact-social a {
     display: inline-block;
-    border: 1px solid #000;
-    background: #000;
+    border: 1px solid #222;
+    background: #222;
     border-radius: 50%;
     margin: 10px;
     color: #fff;
@@ -231,8 +231,8 @@ a.btn-blue:hover,
 }
 
 .contact-social a:hover {
-    border: 1px solid aqua;
-    background-color: aqua;
+    border: 1px solid #0ed8d6;
+    background-color: #0ed8d6;
 }
 
 #contact {
@@ -242,7 +242,7 @@ a.btn-blue:hover,
     position: relative;
     width: 100%;
     min-height: 600px;
-    }
+}
 
 #contact h2,
 #contact h3 {
@@ -269,4 +269,26 @@ a.btn-blue:hover,
 
 #contact input[type='submit'] {
     margin-top: 30px;
+}
+
+#footer .row {
+    padding: 0;
+}
+
+#footer p {
+    margin: auto;
+}
+
+#footer ul {
+    margin-top: 10px;
+}
+
+#footer li a {
+    color: #222;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+#footer li a:hover {
+    color: #0ed8d6;
+    background: none;
 }
